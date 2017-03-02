@@ -6,3 +6,6 @@ Lightweight JS to scroll sticky ads on websites
         element: document.getElementById("sticky_ad"),
         stayWithin: document.querySelector(".main")
     });
+    
+## jsFiddle example
+https://jsfiddle.net/qrhuv0cf/
