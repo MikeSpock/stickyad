@@ -1,0 +1,23 @@
+{
+  "name": "stickyad",
+  "version": "0.0.2",
+  "description": "Lightweight vanilla javascript implementation of sticky (or scrolling) ads",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt":"",
+    "grunt-contrib-watch":"",
+    "grunt-contrib-uglify":"",
+    "grunt-contrib-clean":""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeSpock/stickyad.git"
+  },
+  "author": "Mihaly Kristof <kristof.mihaly@nomo.hu>",
+  "license": "MIT",
+  "homepage": "http://nomo.hu"
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="src/stickyad.js"></script>
+    <script>
+        window.onload = function(){
+            stickyAd.add({
+                element: document.getElementById("sticky_ad"),
+                stayWithin: document.querySelector(".main")
+            });
+
+        };
+    </script>
+
+</head>
+<style>
+    *{box-sizing: border-box;}
+    body{text-align:center;}
+    .head{padding:30px;margin:15px;border:1px solid #dadada;background:#efefef;}
+    .main{margin:15px;padding:30px;border:1px solid #dadada;background:#efefef;}
+    .foot{height:300px; margin:15px;border:1px solid #dadada;background:#efefef;}
+    .main-content{float:left;width:80%;}
+    .main-content-article{border:1px solid #dadada;background:#eaeaea;padding:30px;height:2000px;}
+    .main-ad{float:left;width:20%;}
+    .clear{clear:both;float:none;}
+</style>
+<body>
+<div class="head">Header</div>
+<div class="main">
+    <div class="main-content">
+        <div class="main-content-article">
+            Main content
+        </div>
+    </div>
+    <div class="main-ad">
+        <div class="main-ad-sticky">
+            <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=AD%20img&w=150&h=300" id="sticky_ad" alt="">
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="foot"></div>
+</body>
+</html>
